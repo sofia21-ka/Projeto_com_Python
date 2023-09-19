@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    
+    <title>Formulario</title>
+</head>
+<body>
+    
+    <div class="cont">
+        <h1 class="form">Formulario de Inscrição</h1>
+        <form action="/eviar" method="post">
+            <div class="fomrg">
+                <label for="name">Nome: </label>
+                <input type="text" id="nome" name="nome" required><br><br>
+            </div>
+            <div class="formg">
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="email" required><br><br>
+            </div>
+            <div class="formg">
+                <label for="celular">Celular: </label>
+                <input type="tel" name="celular" id="celular" required><br><br>
+            </div>
+            
+        <button type="submit" class="btn">Enviar</button>
+
+        </form>
+   
+    </div>
+</body>
+</html>
